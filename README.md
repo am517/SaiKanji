@@ -1,5 +1,4 @@
-# SaiKanji
-# 彩漢字
+# SaiKanji (彩漢字)
 
 **A vibrant, colorized stroke-order font derived from KanjiVG.**
 
@@ -16,7 +15,7 @@
 *(Insert images or GIFs showing colored strokes here)*
 
 ## Installation
-1. Download the latest release (`.ttf` or `.otf` file)
+1. Download the latest release (`.ttf` or `.woff` file)
 2. Install the font on your system or embed it in your project/webpage
 
 ## License
@@ -39,7 +38,7 @@ This font is based on data from **[KanjiVG](https://kanjivg.tagaini.net/)**
 > "SaiKanji" is derived from KanjiVG by Ulrich Apel (CC BY-SA 3.0) and licensed under CC BY-SA 4.0.
 
 ## Contributing
-Feel free to open issues or pull requests if you want to help improve stroke coloring, add more kanji, or fix glyphs!
+Feel free to open issues or pull requests if you want to help improve SaiKanji!
 
 ## Source Projects
 - [KanjiVG](https://kanjivg.tagaini.net/) – KanjiVG (Kanji Vector Graphics) provides vector graphics and other information about kanji used by the Japanese language. For each character, it provides an SVG file which gives the shape and direction of its strokes, as well as the stroke order. Each file is also enriched with information about the components of the character such as the radical, or the type of stroke employed.
