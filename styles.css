@@ -325,7 +325,7 @@ footer {
     flex-direction: column;
     gap: 34px;
     align-items: stretch;
-    padding: 64px 0 44px;
+    padding: 0 0 44px;
 }
 
 .intro-copy,
@@ -338,13 +338,9 @@ footer {
     margin: 0 auto;
 }
 
-.intro-title, .intro-subtitle {
-    text-align: center;
-	font-weight: normal;
-}
-
-.intro-subtitle {
-    font-size: 10em;
+.intro-title {
+	
+    font-weight: normal;
 }
 
 .eyebrow {
