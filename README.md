@@ -2,7 +2,7 @@
 
 **A beautiful color stroke-order font for learning and displaying kanji.**
 
-SaiKanji transforms the excellent [KanjiVG](https://kanjivg.tagaini.net/) stroke data into a modern, vibrant color font. Each stroke is individually colored with smooth gradients, and stroke order numbers are embedded directly in the font — making it ideal for education, flashcards, apps, and design work. Check out the [demo](https://saikanji.moore.is/)
+SaiKanji transforms the excellent [KanjiVG](https://kanjivg.tagaini.net/) stroke data into a modern, vibrant color font. Each stroke is individually colored with smooth gradients, and stroke order numbers are embedded directly in the font — making it ideal for education, flashcards, apps, and design work.
 
 ![SaiKanji Preview](saikanji.jpg)
 
