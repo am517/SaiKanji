@@ -4,7 +4,7 @@
 
 SaiKanji transforms the excellent [KanjiVG](https://kanjivg.tagaini.net/) stroke data into a modern, vibrant color font. Each stroke is individually colored with smooth gradients, and stroke order numbers are embedded directly in the font — making it ideal for education, flashcards, apps, and design work.
 
-![SaiKanji Preview](preview.png)
+![SaiKanji Preview](saikanji.jpg)
 
 ## Why SaiKanji?
 
