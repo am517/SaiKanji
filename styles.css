@@ -338,8 +338,13 @@ footer {
     margin: 0 auto;
 }
 
-.intro-title {
+.intro-title, .intro-subtitle {
     text-align: center;
+}
+
+.intro-subtitle {
+    text-align: center;
+    font-size: 10em;
 }
 
 .eyebrow {
