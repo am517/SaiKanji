@@ -1,30 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaiKanji (彩漢字) - Colorized Stroke Font</title>
-    <style>
-        body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #2c3e50; }
-        pre { background: #f4f4f4; padding: 15px; border-radius: 6px; }
-    </style>
-</head>
-<body>
-    <h1>SaiKanji (彩漢字)</h1>
-    <p>A vibrant, colorized stroke-order font based on KanjiVG.</p>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="SaiKanji is a color kanji stroke-order font based on KanjiVG."
+        />
+        <title>SaiKanji - Color Stroke-Order Kanji Font</title>
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23171918'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='38' fill='%23f0cc68'%3E彩%3C/text%3E%3C/svg%3E"
+        />
+        <link rel="preconnect" href="https://github.com" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="nav" aria-label="Primary">
+                <a class="brand" href="#top" aria-label="SaiKanji home">
+                    <span class="brand-mark">彩</span>
+                    <span>SaiKanji</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#demo">Demo</a>
+                    <a href="#download">Download</a>
+                    <a href="https://github.com/am517/SaiKanji">GitHub</a>
+                </div>
+            </nav>
 
-    <h2>Download</h2>
-    <p><a href="https://github.com/yourusername/SaiKanji/releases">Download Latest Version</a></p>
+            <section class="intro" id="top">
+                <div class="intro-copy">
+                    <p class="eyebrow">彩漢字</p>
+                    <h1>A color stroke-order font for kanji.</h1>
+                    <p class="lede">
+                        SaiKanji turns KanjiVG stroke data into a modern hybrid
+                        OpenType font with per-stroke color, stroke-order
+                        numbers, optional guide grids, and broad app/browser
+                        compatibility.
+                    </p>
+                    <div class="actions">
+                        <a class="button primary" href="#demo">Try the demo</a>
+                        <a
+                            class="button"
+                            href="https://github.com/am517/SaiKanji/releases"
+                            >Download v0.010</a
+                        >
+                    </div>
+                </div>
+                <figure class="intro-figure">
+                    <img
+                        src="saikanji.jpg"
+                        alt="SaiKanji preview showing color kanji stroke order"
+                    />
+                </figure>
+            </section>
+        </header>
 
-    <h2>Preview</h2>
-    <!-- Add images here -->
+        <main>
+            <section class="demo-section" id="demo" aria-labelledby="demo-title">
+                <div class="section-heading">
+                    <p class="eyebrow">Live Demo</p>
+                    <h2 id="demo-title">Type with the release fonts.</h2>
+                    <p>
+                        Edit the text, then combine palette, fill, light, and
+                        grid options. The selected WOFF2 file is loaded only
+                        when its font family is used.
+                    </p>
+                </div>
 
-    <h2>License</h2>
-    <p>CC BY-SA 4.0 — Free to use and modify with attribution.</p>
+                <div class="demo-panel">
+                    <div
+                        id="demoText"
+                        class="demo-text regular-gradient"
+                        contenteditable="true"
+                        spellcheck="false"
+                        aria-label="Editable SaiKanji demo text"
+                    >
+                        彩漢字
+                    </div>
 
-    <footer>
-        <p>Based on <a href="https://kanjivg.tagaini.net/">KanjiVG</a></p>
-    </footer>
-</body>
+                    <form class="controls" aria-label="Font controls">
+                        <label class="control">
+                            <span>Palette</span>
+                            <select id="paletteSelect">
+                                <option value="regular">Regular</option>
+                                <option value="balanced" selected>Balanced</option>
+                                <option value="contrast">Contrast</option>
+                                <option value="spectrum">Spectrum</option>
+                                <option value="black">Black</option>
+                            </select>
+                        </label>
+
+                        <fieldset class="control segmented">
+                            <legend>Fill</legend>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="fillStyle"
+                                    value="gradient"
+                                    checked
+                                />
+                                <span>Gradient</span>
+                            </label>
+                            <label>
+                                <input
+                                    type="radio"
+                                    name="fillStyle"
+                                    value="solid"
+                                />
+                                <span>Solid</span>
+                            </label>
+                        </fieldset>
+
+                        <label class="control check">
+                            <input type="checkbox" id="lightToggle" />
+                            <span>Light</span>
+                        </label>
+
+                        <label class="control check">
+                            <input type="checkbox" id="gridToggle" />
+                            <span>Grid</span>
+                        </label>
+                    </form>
+                </div>
+            </section>
+
+            <section class="content-grid" aria-label="SaiKanji details">
+                <article>
+                    <p class="eyebrow">Why</p>
+                    <h2>Stroke order without extra tooling.</h2>
+                    <p>
+                        Most kanji fonts are monochrome, and most stroke-order
+                        tools require images, plugins, or custom rendering.
+                        SaiKanji packages stroke color, numbers, and optional
+                        grids directly into font files.
+                    </p>
+                </article>
+                <article>
+                    <p class="eyebrow">Formats</p>
+                    <h2>Hybrid fonts for practical compatibility.</h2>
+                    <p>
+                        Release fonts combine OpenType SVG with COLR/CPAL or
+                        monochrome TrueType outlines. This lets different apps
+                        choose the color technology they support best.
+                    </p>
+                </article>
+                <article>
+                    <p class="eyebrow">Variants</p>
+                    <h2>Palette, fill, and grid choices.</h2>
+                    <p>
+                        SaiKanji includes Regular, Light, Balanced, Contrast,
+                        and Spectrum families, with light variants where useful.
+                        Color styles ship in Gradient and Solid fills; black
+                        Regular styles provide the simplest monochrome fallback.
+                    </p>
+                </article>
+                <article>
+                    <p class="eyebrow">License</p>
+                    <h2>Openly licensed and attributed.</h2>
+                    <p>
+                        SaiKanji is licensed under CC BY-SA 4.0 and is based on
+                        KanjiVG data by Ulrich Apel, released under CC BY-SA
+                        3.0.
+                    </p>
+                </article>
+            </section>
+
+            <section class="download" id="download">
+                <div>
+                    <p class="eyebrow">Download</p>
+                    <h2>Use SaiKanji in apps, sites, and study decks.</h2>
+                    <p>
+                        Install TTF files for desktop use, or use WOFF2 files
+                        with <code>@font-face</code> on the web. The current
+                        release is v0.010.
+                    </p>
+                </div>
+                <a
+                    class="button primary"
+                    href="https://github.com/am517/SaiKanji/releases"
+                    >Open releases</a
+                >
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                SaiKanji © 2026 Adam Moore. Based on
+                <a href="https://kanjivg.tagaini.net/">KanjiVG</a> © 2009-2026
+                Ulrich Apel.
+            </p>
+            <p>
+                Licensed under
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                    >CC BY-SA 4.0</a
+                >.
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>

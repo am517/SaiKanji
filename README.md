@@ -4,7 +4,7 @@
 
 SaiKanji transforms the excellent [KanjiVG](https://kanjivg.tagaini.net/) stroke data into a modern, vibrant color font. Each stroke is individually colored with smooth gradients, and stroke order numbers are embedded directly in the font — making it ideal for education, flashcards, apps, and design work.
 
-![SaiKanji Preview](preview.png)
+![SaiKanji Preview](saikanji.jpg)
 
 ## Why SaiKanji?
 
@@ -12,7 +12,7 @@ Most kanji fonts are either monochrome or require external tools to show stroke 
 
 ## Features
 
-- **Per-stroke coloring** with smooth gradients across 8 different color schemes
+- **Per-stroke coloring** with smooth gradients across regular, light, balanced, contrast, and spectrum styles
 - **Built-in stroke order numbers** placed intelligently to avoid overlapping strokes
 - **Optional character grids** (outer frame + cross) for better visual reference
 - Works as a normal font — no special software required
@@ -24,15 +24,16 @@ Most kanji fonts are either monochrome or require external tools to show stroke 
 
 SaiKanji comes in many styles so you can choose what works best for your use case:
 
-- **8 Color Palettes**: Regular, Light, Balanced, Contrast, Spectrum (each with a light variant)
+- **Color styles**: Regular, Regular Light, Balanced, Balanced Light, Contrast, Contrast Light, Spectrum, Spectrum Light
 - **Gradient vs Solid** fills
 - **With Grid** or **Without Grid**
+- **Black** Regular styles for a simple monochrome fallback
 
 This gives you a lot of flexibility depending on whether you're using it for learning, design, or accessibility.
 
 ## Preview
 
-*(This space will eventually show live font rendering or high-quality examples of the different color schemes and grid options.)*
+Try the live demo at [saikanji.moore.is](https://saikanji.moore.is/).
 
 ## Installation
 
@@ -42,6 +43,14 @@ This gives you a lot of flexibility depending on whether you're using it for lea
 
 ### For Web Use
 Download the `.woff2` version and include it in your project using `@font-face`.
+Release filenames use dot-separated style names, for example:
+
+```css
+@font-face {
+  font-family: "SaiKanji Balanced Gradient Grid";
+  src: url("SaiKanji.Balanced.Gradient.Grid.woff2") format("woff2");
+}
+```
 
 ## Development Notes
 
