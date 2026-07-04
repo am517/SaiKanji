@@ -1,44 +1,94 @@
 # SaiKanji (彩漢字)
 
-**A vibrant, colorized stroke-order font derived from KanjiVG.**
+**A beautiful color stroke-order font for learning and displaying kanji.**
 
-![Font Preview](kaikanji.jpg)
+SaiKanji transforms the excellent [KanjiVG](https://kanjivg.tagaini.net/) stroke data into a modern, vibrant color font. Each stroke is individually colored with smooth gradients, and stroke order numbers are embedded directly in the font — making it ideal for education, flashcards, apps, and design work.
+
+![SaiKanji Preview](preview.png)
+
+## Why SaiKanji?
+
+Most kanji fonts are either monochrome or require external tools to show stroke order. SaiKanji brings both **color** and **stroke order** directly into the font itself, so it works consistently across websites, documents, design tools, and Anki — with no extra plugins needed.
 
 ## Features
-- Beautiful multi-colored strokes for better visual learning
-- Stroke order information built into the font (great for educational use)
-- Based on the high-quality, open KanjiVG dataset
-- Supports a wide range of common kanji
-- Ideal for Anki decks, websites, learning apps, flashcards, and Japanese study materials
+
+- **Per-stroke coloring** with smooth gradients across 8 different color schemes
+- **Built-in stroke order numbers** placed intelligently to avoid overlapping strokes
+- **Optional character grids** (outer frame + cross) for better visual reference
+- Works as a normal font — no special software required
+- Available in both **Gradient** and **Solid** color versions
+- Hybrid font technology (COLR + SVG) for broad compatibility
+- Derived from the high-quality, open [KanjiVG](https://kanjivg.tagaini.net/) dataset
+
+## Available Variants
+
+SaiKanji comes in many styles so you can choose what works best for your use case:
+
+- **8 Color Palettes**: Regular, Light, Balanced, Contrast, Spectrum (each with a light variant)
+- **Gradient vs Solid** fills
+- **With Grid** or **Without Grid**
+
+This gives you a lot of flexibility depending on whether you're using it for learning, design, or accessibility.
 
 ## Preview
-*(Insert images or GIFs showing colored strokes here)*
+
+*(This space will eventually show live font rendering or high-quality examples of the different color schemes and grid options.)*
 
 ## Installation
-1. Download the latest release (`.ttf` or `.woff` file)
-2. Install the font on your system or embed it in your project/webpage
+
+### For Desktop Use
+1. Download the latest release from the [Releases](https://github.com/am517/SaiKanji/releases) page
+2. Install the `.ttf` file on your system
+
+### For Web Use
+Download the `.woff2` version and include it in your project using `@font-face`.
+
+## Development Notes
+
+This project was developed with significant assistance from AI coding models (primarily **Grok 4** and **GPT-5.5**). While the AI generated the majority of the code, all high-level direction, architectural decisions, and final quality review of the output were done by me. 
+
+The focus was always on the quality of the final fonts rather than on producing clean or elegant code. As a result, the code itself has only received cursory review, while the visual and functional quality of the released fonts was evaluated thoroughly.
+
+## For Developers & Advanced Theming
+
+SaiKanji was designed with theming in mind. During development, every stroke and gradient stop references a color slot (originally using CSS custom properties like `--color0`, `--color1`, etc.).
+
+However, in the current release, colors are resolved at build time. This means:
+
+- You cannot currently override individual stroke colors using CSS variables.
+- The **COLR versions** of the font support the modern [`font-palette`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-palette) CSS property, which allows swapping or customizing entire color palettes in supporting browsers.
+
+If fine-grained per-stroke color control via CSS becomes important to you, feel free to open an issue. This is something that could potentially be supported in a future version.
+
+For most use cases (Anki, websites, documents, design work), the included color schemes should be sufficient.
 
 ## License
-This font is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-**You are free to:**
-- Use it commercially
-- Modify and redistribute it
-- Embed it in apps, websites, Anki decks, etc.
+SaiKanji is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-**Requirements:**
-- Give appropriate credit (see below)
-- Share any modifications under the same license
+See [LICENSE.md](LICENSE.md) for the full license text.
 
 ## Attribution
-This font is based on data from **[KanjiVG](https://kanjivg.tagaini.net/)**  
+
+This font is a derivative work based on data from **[KanjiVG](https://kanjivg.tagaini.net/)**  
 © 2009–2026 Ulrich Apel, released under CC BY-SA 3.0.
 
-**Preferred attribution text:**
-> "SaiKanji" is derived from KanjiVG by Ulrich Apel (CC BY-SA 3.0) and licensed under CC BY-SA 4.0.
+**Preferred attribution:**
+> SaiKanji by Adam Moore is derived from KanjiVG by Ulrich Apel (CC BY-SA 3.0) and is licensed under CC BY-SA 4.0.
 
-## Contributing
-Feel free to open issues or pull requests if you want to help improve SaiKanji!
+It was inspired by the [kanji-colorize](https://github.com/cayennes/kanji-colorize) Anki plugin and the [Playwrite](https://github.com/TypeTogether/Playwrite) font family.
 
-## Source Projects
-- [KanjiVG](https://kanjivg.tagaini.net/) – KanjiVG (Kanji Vector Graphics) provides vector graphics and other information about kanji used by the Japanese language. For each character, it provides an SVG file which gives the shape and direction of its strokes, as well as the stroke order. Each file is also enriched with information about the components of the character such as the radical, or the type of stroke employed.
+## Feedback & Contributions
+
+Found a bug, have a feature idea, or want to suggest a new color scheme?  
+Feel free to open an issue on the [issue tracker](https://github.com/am517/SaiKanji/issues) or email me at adam@moore.is.
+
+## Related Projects
+
+- **[KanjiVG](https://kanjivg.tagaini.net/)** — The excellent open dataset of kanji stroke order vector graphics this project is built upon.
+- **[kanji-colorize](https://github.com/cayennes/kanji-colorize)** — An Anki plugin that popularized colored stroke order diagrams from KanjiVG data.
+- **[Playwrite](https://github.com/TypeTogether/Playwrite)** — A font family inspired by educational handwriting models (creative influence on the overall approach).
+
+## Acknowledgments
+
+Special thanks to Ulrich Apel for creating and maintaining KanjiVG, and to the creators of kanji-colorize and Playwrite for the inspiration.
