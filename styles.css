@@ -13,238 +13,238 @@
 
 @font-face {
     font-family: "SaiKanji Balanced Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Balanced Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Black Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Black";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Contrast Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Regular Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.Grid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.Grid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: "SaiKanji Spectrum Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.woff2")
+    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.v0.020.woff2")
         format("woff2");
     font-display: swap;
 }
