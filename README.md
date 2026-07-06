@@ -1,3 +1,6 @@
+| 🇺🇸 English | 🇯🇵 [日本語](README.ja.md) |
+|-|-|
+
 # SaiKanji (彩漢字)
 
 **A beautiful color stroke-order font for learning and displaying kanji.**
