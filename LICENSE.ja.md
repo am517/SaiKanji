@@ -1,3 +1,6 @@
+| 🇺🇸 [English](LICENSE.md) | 🇯🇵 日本語 |
+|-|-|
+
 # ライセンス
 
 **[SaiKanji (彩漢字)](https://saikanji.moore.is/)** © 2026 by [Adam Moore](https://github.com/am517) は、[クリエイティブ・コモンズ 表示-継承 4.0 国際ライセンス](https://creativecommons.org/licenses/by-sa/4.0/) の下でライセンスされています。
