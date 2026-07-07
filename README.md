@@ -41,10 +41,25 @@ Try the live demo at [saikanji.moore.is](https://saikanji.moore.is/).
 ## Installation
 
 ### For Desktop Use
-1. Download the latest release from the [Releases](https://github.com/am517/SaiKanji/releases) page
+
+#### Manually
+1. Download a `.ttf` file from latest release from the [Releases](https://github.com/am517/SaiKanji/releases) page
 2. Install the `.ttf` file on your system
 
+#### Using Homebrew
+1. Install the [SaiKanji Tap](https://github.com/am517/homebrew-tap)
+```zsh
+brew tap am517/tap
+brew trust am517/tap
+```
+2. Install the font
+```
+brew search font-saikanji
+brew install font-saikanji-balanced-gradient-grid
+```
+
 ### For Web Use
+1. Download a `.woff2` file from latest release from the [Releases](https://github.com/am517/SaiKanji/releases) page
 Download the `.woff2` version and include it in your project using `@font-face`.
 Release filenames use dot-separated style names, for example:
 

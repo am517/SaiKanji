@@ -40,9 +40,23 @@ SaiKanjiには多くのスタイルがあり、用途に合わせて選べます
 
 ## インストール方法
 
-### デスクトップで使う場合
-1. [Releases](https://github.com/am517/SaiKanji/releases) ページから最新リリースをダウンロード
-2. `.ttf` ファイルをシステムにインストール
+### デスクトップでの使用
+
+#### 手動インストール
+1. [Releases](https://github.com/am517/SaiKanji/releases) ページから最新リリースの `.ttf` ファイルをダウンロード
+2. システムに `.ttf` ファイルをインストール
+
+#### Homebrewを使用する場合
+1. [SaiKanji Tap](https://github.com/am517/homebrew-tap) をインストール
+```zsh
+brew tap am517/tap
+brew trust am517/tap
+```
+2. フォントをインストール
+```bash
+brew search font-saikanji
+brew install font-saikanji-balanced-gradient-grid
+```
 
 ### Webで使う場合
 `.woff2` バージョンをダウンロードし、プロジェクトに `@font-face` で組み込みます。  
