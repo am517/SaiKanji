@@ -416,6 +416,39 @@ select {
     font-weight: 800;
 }
 
+/* === Compact Language Toggle === */
+.lang-switcher.segmented {
+    width: auto; /* Key fix: don't stretch */
+    min-height: 38px; /* Slightly smaller than 46px */
+    padding: 3px;
+    gap: 3px;
+    border: 1px solid var(--line);
+    background: var(--panel-strong);
+    border-radius: 6px; /* Optional: softer look */
+    display: inline-grid; /* Makes it size to content */
+    grid-template-columns: auto auto;
+}
+
+.lang-switcher.segmented label {
+    min-height: 32px; /* Reduce height */
+    gap: 6px;
+}
+
+.lang-switcher.segmented span {
+    min-height: 32px;
+    padding: 0 4px;
+    font-size: 0.85rem; /* Slightly smaller text */
+    font-weight: 600;
+}
+
+/* Make the active state look cleaner */
+.lang-switcher.segmented input:checked + span {
+    background: var(--accent);
+    color: #15130c;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
 .check {
     padding: 0 12px;
     font-weight: 700;
