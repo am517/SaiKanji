@@ -8,245 +8,9 @@
     --line: #ded8cc;
     --accent: #d8b75a;
     --accent-strong: #946f00;
+    --demo-light: #fbf7ec;
+    --demo-dark: #181818;
     --shadow: 0 22px 60px rgba(34, 28, 18, 0.12);
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced-Light.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Balanced Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Balanced.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Black Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Black";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Black.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast-Light.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Contrast Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Contrast.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular-Light.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Regular Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Regular.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Light Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Light Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Light Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Light Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum-Light.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Gradient Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Gradient";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Gradient.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Solid Grid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.Grid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "SaiKanji Spectrum Solid";
-    src: url("https://cdn.jsdelivr.net/gh/am517/SaiKanji@main/fonts/SaiKanji.Spectrum.Solid.v0.020.woff2")
-        format("woff2");
-    font-display: swap;
 }
 
 * {
@@ -273,6 +37,25 @@ a {
     color: inherit;
 }
 
+.i18n {
+    display: none;
+}
+
+html[data-content-lang="en"] .i18n[lang="en"],
+html[data-content-lang="ja"] .i18n[lang="ja"] {
+    display: revert;
+}
+
+html[data-content-lang="en"] .i18n-block[lang="en"],
+html[data-content-lang="ja"] .i18n-block[lang="ja"] {
+    display: block;
+}
+
+html[data-content-lang="en"] .i18n-inline[lang="en"],
+html[data-content-lang="ja"] .i18n-inline[lang="ja"] {
+    display: inline;
+}
+
 .site-header,
 main,
 footer {
@@ -288,26 +71,11 @@ footer {
     padding: 20px 0;
 }
 
-.brand,
-.nav-links {
+.nav-links,
+.lang-switcher {
     display: flex;
     align-items: center;
     gap: 14px;
-}
-
-.brand {
-    text-decoration: none;
-    font-weight: 750;
-}
-
-.brand-mark {
-    display: grid;
-    place-items: center;
-    width: 36px;
-    height: 36px;
-    border: 1px solid var(--line);
-    background: var(--text);
-    color: var(--accent-strong);
 }
 
 .nav-links a {
@@ -320,6 +88,17 @@ footer {
     color: var(--text);
 }
 
+.lang-switcher {
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.lang-switcher select {
+    width: auto;
+    min-height: 38px;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -328,18 +107,22 @@ footer {
     padding: 0 0 44px;
 }
 
-.intro-copy,
-.section-heading {
-    max-width: 720px;
-}
-
 .intro-copy {
     max-width: 860px;
     margin: 0 auto;
 }
 
+.section-heading {
+    max-width: 720px;
+    margin-bottom: 24px;
+}
+
 .intro-title {
-    font-weight: normal;
+    margin: 0 0 24px;
+    font-size: clamp(2.8rem, 8vw, 6.4rem);
+    font-weight: 400;
+    line-height: 0.98;
+    letter-spacing: 0;
 }
 
 .eyebrow {
@@ -354,15 +137,9 @@ footer {
 h1,
 h2,
 h3,
-p {
+p,
+li {
     overflow-wrap: anywhere;
-}
-
-h1 {
-    margin: 0;
-    font-size: clamp(3rem, 8vw, 6.8rem);
-    line-height: 0.96;
-    letter-spacing: 0;
 }
 
 h2 {
@@ -372,14 +149,26 @@ h2 {
     letter-spacing: 0;
 }
 
+h3 {
+    margin: 0 0 12px;
+    font-size: 1.18rem;
+}
+
 p {
     margin: 0;
 }
 
+ol {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
 .lede,
 .section-heading p,
-.content-grid p,
-.download p {
+.download p,
+.info-section p,
+.info-section li,
+.font-list-section p {
     color: var(--muted);
     font-size: 1.05rem;
 }
@@ -404,7 +193,7 @@ p {
     justify-content: center;
     padding: 10px 16px;
     border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.78);
     color: var(--text);
     font-weight: 700;
     text-decoration: none;
@@ -422,8 +211,7 @@ p {
 
 .intro-figure img {
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
     max-height: 620px;
     object-fit: cover;
     border: 1px solid var(--line);
@@ -434,14 +222,62 @@ p {
     padding: 38px 0 56px;
 }
 
-.section-heading {
-    margin-bottom: 24px;
-}
-
-.demo-panel {
+.demo-panel,
+.download,
+.info-section,
+.font-list-section {
     border: 1px solid var(--line);
     background: var(--panel);
     box-shadow: var(--shadow);
+}
+
+.demo-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 18px 0;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--muted);
+    font-size: 0.86rem;
+    font-weight: 750;
+}
+
+.theme-switch input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.theme-track {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 132px;
+    min-height: 38px;
+    padding: 4px;
+    border: 1px solid var(--line);
+    background: var(--panel-strong);
+    cursor: pointer;
+}
+
+.theme-track span {
+    display: grid;
+    place-items: center;
+    color: var(--muted);
+}
+
+.theme-switch input:not(:checked) + .theme-track span:first-child,
+.theme-switch input:checked + .theme-track span:last-child {
+    background: var(--accent);
+    color: #15130c;
+    font-weight: 850;
+}
+
+.demo-text-wrap {
+    position: relative;
 }
 
 .demo-text {
@@ -451,18 +287,58 @@ p {
     justify-content: center;
     padding: 28px;
     border-bottom: 1px solid var(--line);
-    background: #fbf7ec;
+    background: var(--demo-light);
     color: #111;
     font-size: clamp(5rem, 17vw, 12rem);
     line-height: 1;
     text-align: center;
     outline: none;
     overflow-wrap: anywhere;
+    transition:
+        background-color 160ms ease,
+        color 160ms ease;
+}
+
+.demo-panel[data-demo-background="dark"] .demo-text {
+    background: var(--demo-dark);
+    color: #eee;
+}
+
+.font-progress {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    overflow: hidden;
+    background: transparent;
+    pointer-events: none;
+}
+
+.font-progress span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left center;
+    background: var(--accent);
+    transition: transform 120ms ease;
+}
+
+.font-progress[data-state="loaded"] span {
+    opacity: 0;
+    transition:
+        transform 120ms ease,
+        opacity 700ms ease 260ms;
+}
+
+.font-progress[data-state="error"] span {
+    background: #cf3f34;
 }
 
 .controls {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 16px;
     align-items: end;
     padding: 18px;
@@ -503,12 +379,6 @@ select {
     gap: 4px;
     margin: 0;
     padding: 4px;
-}
-
-.segmented legend {
-    grid-column: 1 / -1;
-    min-height: 0;
-    margin: -28px 0 8px;
 }
 
 .segmented label,
@@ -552,30 +422,59 @@ select {
     accent-color: var(--accent);
 }
 
-.content-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
-    padding: 40px 0 22px;
+.download-current {
+    width: 100%;
 }
 
-.content-grid article,
 .download {
-    border: 1px solid var(--line);
-    background: var(--panel);
+    margin: 28px 0 24px;
     padding: 24px;
 }
 
-.content-grid h2 {
-    font-size: clamp(1.45rem, 2.6vw, 2rem);
+.info-section,
+.font-list-section {
+    margin: 24px 0;
+    padding: 24px;
 }
 
-.download {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 24px;
-    margin: 28px 0 64px;
+.install-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.install-grid article {
+    border: 1px solid var(--line);
+    background: var(--panel-strong);
+    padding: 18px;
+}
+
+.font-download-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.font-download {
+    display: grid;
+    gap: 4px;
+    min-height: 74px;
+    align-content: center;
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    background: var(--panel-strong);
+    text-decoration: none;
+}
+
+.font-download:hover {
+    border-color: var(--accent);
+    background: #fff9e6;
+}
+
+.font-download span {
+    color: var(--muted);
+    font-size: 0.92rem;
 }
 
 code {
@@ -596,157 +495,26 @@ footer a {
     color: var(--text);
 }
 
-.regular-gradient {
-    font-family: "SaiKanji Regular Gradient", serif;
-}
+@media (max-width: 920px) {
+    .controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 
-.regular-gradient-grid {
-    font-family: "SaiKanji Regular Gradient Grid", serif;
-}
-
-.regular-solid {
-    font-family: "SaiKanji Regular Solid", serif;
-}
-
-.regular-solid-grid {
-    font-family: "SaiKanji Regular Solid Grid", serif;
-}
-
-.regular-light-gradient {
-    font-family: "SaiKanji Regular Light Gradient", serif;
-}
-
-.regular-light-gradient-grid {
-    font-family: "SaiKanji Regular Light Gradient Grid", serif;
-}
-
-.regular-light-solid {
-    font-family: "SaiKanji Regular Light Solid", serif;
-}
-
-.regular-light-solid-grid {
-    font-family: "SaiKanji Regular Light Solid Grid", serif;
-}
-
-.balanced-gradient {
-    font-family: "SaiKanji Balanced Gradient", serif;
-}
-
-.balanced-gradient-grid {
-    font-family: "SaiKanji Balanced Gradient Grid", serif;
-}
-
-.balanced-solid {
-    font-family: "SaiKanji Balanced Solid", serif;
-}
-
-.balanced-solid-grid {
-    font-family: "SaiKanji Balanced Solid Grid", serif;
-}
-
-.balanced-light-gradient {
-    font-family: "SaiKanji Balanced Light Gradient", serif;
-}
-
-.balanced-light-gradient-grid {
-    font-family: "SaiKanji Balanced Light Gradient Grid", serif;
-}
-
-.balanced-light-solid {
-    font-family: "SaiKanji Balanced Light Solid", serif;
-}
-
-.balanced-light-solid-grid {
-    font-family: "SaiKanji Balanced Light Solid Grid", serif;
-}
-
-.contrast-gradient {
-    font-family: "SaiKanji Contrast Gradient", serif;
-}
-
-.contrast-gradient-grid {
-    font-family: "SaiKanji Contrast Gradient Grid", serif;
-}
-
-.contrast-solid {
-    font-family: "SaiKanji Contrast Solid", serif;
-}
-
-.contrast-solid-grid {
-    font-family: "SaiKanji Contrast Solid Grid", serif;
-}
-
-.contrast-light-gradient {
-    font-family: "SaiKanji Contrast Light Gradient", serif;
-}
-
-.contrast-light-gradient-grid {
-    font-family: "SaiKanji Contrast Light Gradient Grid", serif;
-}
-
-.contrast-light-solid {
-    font-family: "SaiKanji Contrast Light Solid", serif;
-}
-
-.contrast-light-solid-grid {
-    font-family: "SaiKanji Contrast Light Solid Grid", serif;
-}
-
-.spectrum-gradient {
-    font-family: "SaiKanji Spectrum Gradient", serif;
-}
-
-.spectrum-gradient-grid {
-    font-family: "SaiKanji Spectrum Gradient Grid", serif;
-}
-
-.spectrum-solid {
-    font-family: "SaiKanji Spectrum Solid", serif;
-}
-
-.spectrum-solid-grid {
-    font-family: "SaiKanji Spectrum Solid Grid", serif;
-}
-
-.spectrum-light-gradient {
-    font-family: "SaiKanji Spectrum Light Gradient", serif;
-}
-
-.spectrum-light-gradient-grid {
-    font-family: "SaiKanji Spectrum Light Gradient Grid", serif;
-}
-
-.spectrum-light-solid {
-    font-family: "SaiKanji Spectrum Light Solid", serif;
-}
-
-.spectrum-light-solid-grid {
-    font-family: "SaiKanji Spectrum Light Solid Grid", serif;
-}
-
-.black {
-    font-family: "SaiKanji Black", serif;
-}
-
-.black-grid {
-    font-family: "SaiKanji Black Grid", serif;
+    .download-current {
+        grid-column: 1 / -1;
+    }
 }
 
 @media (max-width: 820px) {
     .nav,
-    .download,
     footer {
         align-items: flex-start;
         flex-direction: column;
     }
 
-    .intro,
-    .content-grid {
+    .install-grid,
+    .font-download-grid {
         grid-template-columns: 1fr;
-    }
-
-    .controls {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
@@ -762,7 +530,16 @@ footer a {
     }
 
     .intro {
-        padding-top: 36px;
+        padding-top: 20px;
+    }
+
+    .demo-toolbar {
+        justify-content: flex-start;
+    }
+
+    .theme-switch {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .demo-text {

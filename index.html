@@ -17,24 +17,33 @@
     <body>
         <header class="site-header">
             <nav class="nav" aria-label="Primary">
+                <label class="lang-switcher">
+                    <span class="i18n i18n-inline" lang="en">Language</span>
+                    <select id="langSelect" aria-label="Language">
+                        <option value="en">English</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </label>
                 <div class="nav-links">
                     <a href="#demo">Demo</a>
-                    <a href="https://github.com/am517/SaiKanji/releases">Download</a>
+                    <a href="#download">Download</a>
                     <a href="https://github.com/am517/SaiKanji">GitHub</a>
                 </div>
             </nav>
 
             <section class="intro" id="top">
                 <div class="intro-copy">
-					<h2 class="intro-title">SaiKanji (彩漢字)</h2>
-	                <figure class="intro-figure">
-	                    <img
-	                        src="saikanji.jpg"
-	                        alt="SaiKanji preview showing color kanji stroke order"
-	                    />
-	                </figure>						
-					<h2>A color stroke-order font for kanji.</h2>
-                    <p class="lede">
+                    <h1 class="intro-title">SaiKanji (彩漢字)</h1>
+                    <figure class="intro-figure">
+                        <img
+                            src="saikanji.jpg"
+                            alt="SaiKanji preview showing color kanji stroke order"
+                        />
+                    </figure>
+                    <h2 class="i18n i18n-block" lang="en">
+                        A color stroke-order font for kanji.
+                    </h2>
+                    <p class="lede i18n i18n-block" lang="en">
                         SaiKanji turns KanjiVG stroke data into a modern hybrid
                         OpenType font with per-stroke color, stroke-order
                         numbers, optional guide grids, and broad app/browser
@@ -42,11 +51,7 @@
                     </p>
                     <div class="actions">
                         <a class="button primary" href="#demo">Try the demo</a>
-                        <a
-                            class="button"
-                            href="https://github.com/am517/SaiKanji/releases"
-                            >Download v0.020</a
-                        >
+                        <a class="button" href="#download">Download v0.020</a>
                     </div>
                 </div>
             </section>
@@ -55,23 +60,52 @@
         <main>
             <section class="demo-section" id="demo" aria-labelledby="demo-title">
                 <div class="section-heading">
-                    <p class="eyebrow">Live Demo</p>
-                    <p>
+                    <p class="eyebrow i18n i18n-block" lang="en">Live Demo</p>
+                    <h2 id="demo-title" class="i18n i18n-block" lang="en">
+                        Type with the release fonts.
+                    </h2>
+                    <p class="i18n i18n-block" lang="en">
                         Edit the text, then combine palette, fill, light, and
-                        grid options.
+                        grid options. Fonts are roughly 15 MB each and may take
+                        a moment to download.
                     </p>
-                    <h5>* Fonts are roughly 15Mb each and may take a moment to download</h5>
-				</div>
+                </div>
 
-                <div class="demo-panel">
-                    <div
-                        id="demoText"
-                        class="demo-text regular-gradient"
-                        contenteditable="true"
-                        spellcheck="false"
-                        aria-label="Editable SaiKanji demo text"
-                    >
-                        彩漢字
+                <div class="demo-panel" id="demoPanel">
+                    <div class="demo-toolbar">
+                        <label class="theme-switch">
+                            <span class="i18n i18n-inline" lang="en"
+                                >Demo background</span
+                            >
+                            <input
+                                type="checkbox"
+                                id="demoBackgroundToggle"
+                                aria-label="Use dark demo background"
+                            />
+                            <span class="theme-track" aria-hidden="true">
+                                <span>Light</span>
+                                <span>Dark</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="demo-text-wrap">
+                        <div
+                            id="demoText"
+                            class="demo-text"
+                            contenteditable="true"
+                            spellcheck="false"
+                            aria-label="Editable SaiKanji demo text"
+                        >
+                            彩漢字
+                        </div>
+                        <div
+                            class="font-progress"
+                            id="fontProgress"
+                            aria-label="Font download progress"
+                        >
+                            <span id="fontProgressBar"></span>
+                        </div>
                     </div>
 
                     <form class="controls" aria-label="Font controls">
@@ -115,67 +149,107 @@
                             <input type="checkbox" id="gridToggle" />
                             <span>Grid</span>
                         </label>
+
+                        <a
+                            class="button primary download-current"
+                            id="currentDownload"
+                            href="#download"
+                            download
+                            >Download</a
+                        >
                     </form>
                 </div>
             </section>
 
-            <section class="content-grid" aria-label="SaiKanji details">
-                <article>
-                    <p class="eyebrow">Why</p>
-                    <h2>Stroke order without extra tooling.</h2>
-                    <p>
-                        Most kanji fonts are monochrome, and most stroke-order
-                        tools require images, plugins, or custom rendering.
-                        SaiKanji packages stroke color, numbers, and optional
-                        grids directly into font files.
+            <section class="download" id="download">
+                <div class="download-intro">
+                    <p class="eyebrow i18n i18n-block" lang="en">Download</p>
+                    <h2 class="i18n i18n-block" lang="en">
+                        Use SaiKanji in apps, sites, and study decks.
+                    </h2>
+                    <p class="i18n i18n-block" lang="en">
+                        Download the currently selected demo font, browse every
+                        TTF file below, or open GitHub releases for the full
+                        release.
                     </p>
-                </article>
-                <article>
-                    <p class="eyebrow">Formats</p>
-                    <h2>Hybrid fonts for practical compatibility.</h2>
-                    <p>
-                        Release fonts combine OpenType SVG with COLR/CPAL or
-                        monochrome TrueType outlines. This lets different apps
-                        choose the color technology they support best.
-                    </p>
-                </article>
-                <article>
-                    <p class="eyebrow">Variants</p>
-                    <h2>Palette, fill, and grid choices.</h2>
-                    <p>
-                        SaiKanji includes Regular, Light, Balanced, Contrast,
-                        and Spectrum families, with light variants where useful.
-                        Color styles ship in Gradient and Solid fills; black
-                        Regular styles provide the simplest monochrome fallback.
-                    </p>
-                </article>
-                <article>
-                    <p class="eyebrow">License</p>
-                    <h2>Openly licensed and attributed.</h2>
-                    <p>
-                        SaiKanji is licensed under CC BY-SA 4.0 and is based on
-                        KanjiVG data by Ulrich Apel, released under CC BY-SA
-                        3.0.
-                    </p>
-                </article>
+                    <div class="actions">
+                        <a
+                            class="button primary"
+                            id="sectionDownload"
+                            href="#download"
+                            download
+                            >Download selected font</a
+                        >
+                        <a
+                            class="button"
+                            href="https://github.com/am517/SaiKanji/releases"
+                            >Open GitHub releases</a
+                        >
+                    </div>
+                </div>
             </section>
 
-            <section class="download" id="download">
-                <div>
-                    <p class="eyebrow">Download</p>
-                    <h2>Use SaiKanji in apps, sites, and study decks.</h2>
-                    <p>
-                        Install TTF files for desktop use, or use WOFF2 files
-                        with <code>@font-face</code> on the web. The current
-                        release is v0.020, and the demo uses the WOFF2 files in
-                        the <code>fonts/</code> folder.
+            <section class="info-section" aria-labelledby="install-title">
+                <p class="eyebrow i18n i18n-block" lang="en">Install</p>
+                <h2 id="install-title" class="i18n i18n-block" lang="en">
+                    Install once, then use it like a normal font.
+                </h2>
+                <div class="install-grid">
+                    <article>
+                        <h3 class="i18n i18n-block" lang="en">Desktop</h3>
+                        <ol class="i18n i18n-block" lang="en">
+                            <li>
+                                Download a <code>.ttf</code> file from the
+                                GitHub release.
+                            </li>
+                            <li>
+                                Open the file and install it with your system
+                                font manager.
+                            </li>
+                            <li>
+                                Select the SaiKanji style in Pages, design
+                                tools, Anki, or other apps.
+                            </li>
+                        </ol>
+                    </article>
+                    <article>
+                        <h3 class="i18n i18n-block" lang="en">Web</h3>
+                        <p class="i18n i18n-block" lang="en">
+                            Use the WOFF2 files with <code>@font-face</code>.
+                            Host the files with your site when possible so font
+                            loading is cacheable and predictable.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="font-list-section" aria-labelledby="font-list-title">
+                <div class="section-heading">
+                    <p class="eyebrow i18n i18n-block" lang="en">Files</p>
+                    <h2 id="font-list-title" class="i18n i18n-block" lang="en">
+                        One-click TTF downloads.
+                    </h2>
+                    <p class="i18n i18n-block" lang="en">
+                        Gradient files preserve smooth stroke color. Solid files
+                        use flat stroke color. Black files are the simplest
+                        monochrome fallback.
                     </p>
                 </div>
-                <a
-                    class="button primary"
-                    href="https://github.com/am517/SaiKanji/releases"
-                    >Open releases</a
-                >
+                <div class="font-download-grid" id="fontDownloadGrid"></div>
+            </section>
+
+            <section class="info-section" aria-labelledby="license-title">
+                <p class="eyebrow i18n i18n-block" lang="en">
+                    License & Acknowledgements
+                </p>
+                <h2 id="license-title" class="i18n i18n-block" lang="en">
+                    Openly licensed and attributed.
+                </h2>
+                <p class="i18n i18n-block" lang="en">
+                    SaiKanji is licensed under CC BY-SA 4.0. It is derived from
+                    KanjiVG by Ulrich Apel, released under CC BY-SA 3.0, and was
+                    inspired by kanji-colorize and Playwrite.
+                </p>
             </section>
         </main>
 
