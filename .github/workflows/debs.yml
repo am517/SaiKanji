@@ -1,0 +1,44 @@
+name: debs
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to package (e.g. v0.020)"
+        required: true
+      dry_run:
+        description: "Build only, don't upload"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  fonts:
+    runs-on: ubuntu-24.04
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: packaging
+      - uses: actions/checkout@v4
+        with:
+          repository: am517/homebrew-tap
+          path: tap
+      - name: Build font .debs (Architecture all)
+        run: |
+          VERSION="${TAG#v}" packaging/debian/build-debs.sh tap out
+          cd out && sha256sum *.deb > SHA256SUMS-deb.txt && ls -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: saikanji-debs
+          path: out/
+      - name: Attach to the release
+        if: github.event_name == 'release' || !inputs.dry_run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$TAG" out/*.deb out/SHA256SUMS-deb.txt --clobber -R "$GITHUB_REPOSITORY"
